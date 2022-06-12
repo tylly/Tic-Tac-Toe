@@ -1,7 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body {
+background-color: goldenrod;
+font-family: lato, sans-serif ;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+#topLine {
+    width: 100%;
+    text-align: center;
+}
+
+#xWins {
+    text-align: left;
+    display: inline-block;
+    width: 110px;
+    text-decoration: underline;
+
+}
+#turn {
+    text-align: center;
+    display: inline-block;
+    width: 110px;
+    color: teal;
+
+}
+#oWins {
+    text-align: right;
+    display: inline-block;
+    width: 110px;
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+}
+
 .grid {
     display: grid;
     text-align: center;
     position: relative;
+    margin-top: 2%;
 }
 
 
@@ -10,5 +53,33 @@ input {
     text-align: center;
     width: 40px;
     height: 40px;
-    margin: 20px 20px 20px 20px;
+    margin: 10px 10px 10px 10px;
+    background-color: goldenrod;
+    border: 3px solid teal;
+    border-radius: 5px;
+    color:white;
+}
+input:hover{
+    font-weight:bold;
+    border: 2px solid white;
+  }
+
+.resett {
+    text-align: center;
+    position: relative;
+}
+
+.topp {
+    text-align: center;
+    position: relative;
+}
+
+#reset {
+    width: 80px;
+}
+
+#newGame {
+    text-align: center;
+    position: relative;
+    width: 100px;
 }
