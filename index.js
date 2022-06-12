@@ -187,7 +187,7 @@ choicesArr.map((choice) => {
             oDub();  
             boxesDone();  
         }
-        if(turns === 9){
+        if(turns === 9 && xWins === 0 && oWins === 0){
             document.getElementById("turn").innerHTML = "Tie"  
         }
     }  
